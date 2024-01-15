@@ -1,76 +1,76 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <title>John Smith's CV</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>@page { size: A4 }</style>
-  </head>
-  <body class="A4">
-    <article class="sheet padding-20mm">
-      <header>
-        <h1>John Smith</h1>
-        <ul>
-          <li><a href="mailto:john.smith@example.com">john.smith@example.com</a></li>
-          <li><a target="_blank" href="https://github.com/example">github.com/example</a></li>
-        </ul>
-      </header>
+<html>
+	<head>
+		<link href="style.css" rel="stylesheet">
+		<title>Your name resume</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	</head>
 
-      <section id="education">
-        <h2>Education</h2>
-
-        <section id="school">
-          <h3>Fake School, <em class="subtitle">Fake Engineering Immersive</em></h3>
-          <span class="date">Sept 2019 | Jan 2020</span>
-        </section>
-
-        <section id="uni">
-          <h3>Fake University, <em class="subtitle">Fake Studies (MA)</em></h3>
-          <span class="date">Sept 2015 | May 2019</span>
-          <p>
-            Graduated with fake honours.
-          </p>
-        </section>
-      </section>
-
-      <section id="projects">
-        <h2>Projects</h2>
-
-        <section id="project1">
-          <h3>Fake Project #1</h3>
-          <p>
-            A really cool project I made which is totally fake!
-          </p>
-        </section>
-
-        <section id="project2">
-          <h3>Fake Project #2</h3>
-          <p>
-            Another fake project I made. Totally different from the other one.
-          </p>
-        </section>
-
-      <section id="experience">
-        <h2>Experience</h2>
-
-        <section id="job1">
-          <h3>Fake Job #1, <em class="subtitle">Fake Consultant</em></h3>
-
-          <span class="date">July 2017</span>
-          <p>
-            Provided fake support for fake clients.
-          </p>
-        </section>
-
-        <section id="job2">
-          <h3>Fake Job #2, <em class="subtitle">Fake Manager</em></h3>
-
-          <span class="date">Jan 2016 | Aug 2016</span>
-          <p>
-            Managed loads of fake employees. 
-          </p>
-        </section>
-      </section>
-    </article>
-  </body>
+	<body>
+		<header id="header">
+			<!-- resume header with your name and title -->
+			<h1>YOUR NAME</h1>
+			<hr>
+			YOUR TITLE
+			<hr>
+		</header>
+		<main>
+			<article id="mainLeft">
+				<section>
+					<h2>CONTACT</h2>
+					<!-- contact info including social media -->
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:your-email@example.com">your-email@example.com</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <a href="github.com/gh-username">gh-username</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <a href="linkedin.com/linkedin-username">linkedin-username</a>
+                    </p>
+				</section>
+				<section>
+					<h2>SKILLS</h2>
+					<!-- your skills -->
+                    <p>HTML, CSS, GitHub, VS Code...</p>
+				</section>
+				<section>
+					<h2>EDUCATION</h2>
+					<!-- your education -->
+                    <h3>YOUR MAJOR</h3>
+                    <p>
+                        Your university or school
+                    </p>
+                    <p>
+                        2018-2022
+                    </p>
+				</section>            
+			</article>
+			<article id="mainRight">
+				<section>
+					<h2>ABOUT</h2>
+					<!-- about you -->
+					<p>A brief paragraph about you and what kind of company you want to work for.</p>
+				</section>
+				<section>
+					<h2>WORK EXPERIENCE</h2>
+					<!-- your work experience -->
+                    <h3>JOB TITLE</h3>
+                    <p>
+                            Company Name | 2008 - 2010
+                    </p>
+                    <p>
+                            Describe what you did in this position with one summary sentence and no more than 3 bullet points with specific highlights
+                    </p>
+                    <ul>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                            <li>Cool accomplishment</li>
+                    </ul>
+				</section>
+			</article>
+		</main>
+	</body>
 </html>
